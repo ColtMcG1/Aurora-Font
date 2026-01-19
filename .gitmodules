@@ -1,0 +1,3 @@
+[submodule "test-fonts"]
+	path = assets/test-fonts
+	url = https://github.com/simoncozens/test-fonts.git

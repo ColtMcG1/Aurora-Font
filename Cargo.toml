@@ -1,0 +1,10 @@
+[package]
+name = "aurora-font"
+version = "0.1.0"
+authors = ["Colton McGraw <github.com/ColtMcG1>"]
+edition = "2024"
+description = "A font parsing library."
+license = "Apache-2.0"
+repository = "github.com/ColtMcG1/Aurora-Font"
+
+[dependencies]

@@ -1,0 +1,5 @@
+/target/
+Cargo.lock
+
+# This is included in gitmoodules
+/assets/test-fonts/
