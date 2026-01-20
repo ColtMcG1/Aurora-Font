@@ -8,3 +8,11 @@ license = "Apache-2.0"
 repository = "github.com/ColtMcG1/Aurora-Font"
 
 [dependencies]
+rayon = { version = "1.7", optional = true }
+
+[features]
+# Full version has high-level convenience APIs (decode into built-in `Font`, sinks, helpers)
+# Disabled by default to keep the core minimal and lightweight.
+full = []
+# Enable parallel checksum validation (optional, enables `rayon`)
+parallel = ["rayon"]

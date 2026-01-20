@@ -6,4 +6,10 @@
 //! 
 //! This library provides functionality for parsing and manipulating font files.
 
-//TODO: Implement font parsing functionality
+pub mod common;
+pub mod error;
+pub mod io;
+
+/// Interface for high-level font data conversion and manipulation (opt-in).
+#[cfg(feature = "full")]
+pub mod font;
